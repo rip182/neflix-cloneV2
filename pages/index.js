@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from './components/Layout'
-
 import { signIn } from "next-auth/react"
 export default function Home() {
 

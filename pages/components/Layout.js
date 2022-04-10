@@ -1,8 +1,4 @@
 import React from 'react'
-// import Image from 'next/image'
-// import styles from './styles/Home.module.css'
-// import { signIn, signOut, useSession } from "next-auth/react"
-import { withRouter } from 'next/router';
 import Header from './Header'
 
 
