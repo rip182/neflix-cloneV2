@@ -1,0 +1,25 @@
+import React from 'react'
+// import Image from 'next/image'
+// import styles from './styles/Home.module.css'
+// import { signIn, signOut, useSession } from "next-auth/react"
+import { withRouter } from 'next/router';
+import Header from './Header'
+
+
+const Layout = ({children}) => {
+  return (
+    <div
+    className="flex flex-col items-center justify-center min-h-screen bg-black"
+    style={{
+      "background-image":
+        "linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url(/image/Netflix-Background.jpg)",
+    }}
+  >
+    <Header />
+
+    {children}
+  </div>
+  )
+}
+
+export default Layout
